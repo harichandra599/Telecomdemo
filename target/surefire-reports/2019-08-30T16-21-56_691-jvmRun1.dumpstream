@@ -1,0 +1,455 @@
+# Created at 2019-08-30T16:22:54.084
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2019-08-30T16:22:56.373
+Unexpected IOException with stream: 2019-08-30 16:22:56 INFO  Enterpriseuserobj:164 - Entered user name harienterprisesa@gmail.com and object is [[ChromeDriver: chrome on XP (b716731db18342d5e9eef95d51f7f060)] -> name: email]
+
+
+# Created at 2019-08-30T16:22:56.373
+Unexpected IOException with stream: 2019-08-30 16:22:56 INFO  Enterpriseuserobj:165 - <===========Hi User name entered successfully!===========> 
+
+
+# Created at 2019-08-30T16:22:57.065
+Unexpected IOException: 8,1,TestCases.EnterpriseuserLogin,enterpriseuseroperations(TestCases.EnterpriseuserLogin),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=76.0.3809.132)\000A  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)\002Cplatform=Windows NT 6.0.6000 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MAVENTUS6'\002C ip: '192.168.0.24'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_181'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031...\002C userDataDir: C:\005CUsers\005CHari\005CAppData\005CLocal...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:53308}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 76.0.3809.132\002C webStorageEnabled: true}\000ASession ID: b716731db18342d5e9eef95d51f7f060\000A*** Element info: {Using=name\002C value=pwd},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=76.0.3809.132)\000A  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)\002Cplatform=Windows NT 6.0.6000 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MAVENTUS6'\002C ip: '192.168.0.24'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_181'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031...\002C userDataDir: C:\005CUsers\005CHari\005CAppData\005CLocal...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:53308}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 76.0.3809.132\002C webStorageEnabled: true}\000ASession ID: b716731db18342d5e9eef95d51f7f060\000A*** Element info: {Using=name\002C value=pwd},EnterpriseuserLogin.enterpriseuseroperations:41 \00BB NoSuchWindow no such window:...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=76.0.3809.132)\000A  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)\002Cplatform=Windows NT 6.0.6000 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MAVENTUS6'\002C ip: '192.168.0.24'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_181'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031...\002C userDataDir: C:\005CUsers\005CHari\005CAppData\005CLocal...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:53308}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 76.0.3809.132\002C webStorageEnabled: true}\000ASession ID: b716731db18342d5e9eef95d51f7f060\000A*** Element info: {Using=name\002C value=pwd}\000A\0009at TestCases.EnterpriseuserLogin.enterpriseuseroperations(EnterpriseuserLogin.java:41)\000A
+
+
+# Created at 2019-08-30T16:23:04.109
+Unexpected IOException: 8,1,TestCases.EnterpriseuserLogin,browserclose(TestCases.EnterpriseuserLogin),null,chrome not reachable\000A  (Session info: chrome=76.0.3809.132)\000A  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)\002Cplatform=Windows NT 6.0.6000 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MAVENTUS6'\002C ip: '192.168.0.24'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_181'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031...\002C userDataDir: C:\005CUsers\005CHari\005CAppData\005CLocal...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:53308}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 76.0.3809.132\002C webStorageEnabled: true}\000ASession ID: b716731db18342d5e9eef95d51f7f060,null,chrome not reachable\000A  (Session info: chrome=76.0.3809.132)\000A  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)\002Cplatform=Windows NT 6.0.6000 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MAVENTUS6'\002C ip: '192.168.0.24'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_181'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031...\002C userDataDir: C:\005CUsers\005CHari\005CAppData\005CLocal...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:53308}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 76.0.3809.132\002C webStorageEnabled: true}\000ASession ID: b716731db18342d5e9eef95d51f7f060,EnterpriseuserLogin.browserclose:51->TestBase.closeBrowser:220 \00BB WebDriver chr...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=76.0.3809.132)\000A  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)\002Cplatform=Windows NT 6.0.6000 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MAVENTUS6'\002C ip: '192.168.0.24'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_181'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031...\002C userDataDir: C:\005CUsers\005CHari\005CAppData\005CLocal...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C goog:chromeOptions: {debuggerAddress: localhost:53308}\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 76.0.3809.132\002C webStorageEnabled: true}\000ASession ID: b716731db18342d5e9eef95d51f7f060\000A\0009at TestCases.EnterpriseuserLogin.browserclose(EnterpriseuserLogin.java:51)\000A
+
+
+# Created at 2019-08-30T16:23:04.257
+Unexpected IOException with stream: I:\hari\Automation\Telecom\Mavsocial\Mavsocial//src//test//java//TestData//TestData.xls
+
+
+# Created at 2019-08-30T16:23:04.326
+Unexpected IOException with stream: 2019-08-30 16:23:04 INFO  TestBase:122 - creating object of chrome
+
+
+# Created at 2019-08-30T16:23:06.491
+Unexpected IOException with stream: S
+
+# Created at 2019-08-30T16:23:06.492
+Unexpected IOException with stream: t
+
+# Created at 2019-08-30T16:23:06.492
+Unexpected IOException with stream: a
+
+# Created at 2019-08-30T16:23:06.493
+Unexpected IOException with stream: r
+
+# Created at 2019-08-30T16:23:06.493
+Unexpected IOException with stream: t
+
+# Created at 2019-08-30T16:23:06.493
+Unexpected IOException with stream: i
+
+# Created at 2019-08-30T16:23:06.494
+Unexpected IOException with stream: n
+
+# Created at 2019-08-30T16:23:06.494
+Unexpected IOException with stream: g
+
+# Created at 2019-08-30T16:23:06.494
+Unexpected IOException with stream:  
+
+# Created at 2019-08-30T16:23:06.494
+Unexpected IOException with stream: C
+
+# Created at 2019-08-30T16:23:06.495
+Unexpected IOException with stream: h
+
+# Created at 2019-08-30T16:23:06.495
+Unexpected IOException with stream: r
+
+# Created at 2019-08-30T16:23:06.495
+Unexpected IOException with stream: o
+
+# Created at 2019-08-30T16:23:06.496
+Unexpected IOException with stream: m
+
+# Created at 2019-08-30T16:23:06.496
+Unexpected IOException with stream: e
+
+# Created at 2019-08-30T16:23:06.496
+Unexpected IOException with stream: D
+
+# Created at 2019-08-30T16:23:06.497
+Unexpected IOException with stream: r
+
+# Created at 2019-08-30T16:23:06.497
+Unexpected IOException with stream: i
+
+# Created at 2019-08-30T16:23:06.497
+Unexpected IOException with stream: v
+
+# Created at 2019-08-30T16:23:06.498
+Unexpected IOException with stream: e
+
+# Created at 2019-08-30T16:23:06.498
+Unexpected IOException with stream: r
+
+# Created at 2019-08-30T16:23:06.498
+Unexpected IOException with stream:  
+
+# Created at 2019-08-30T16:23:06.498
+Unexpected IOException with stream: 2
+
+# Created at 2019-08-30T16:23:06.499
+Unexpected IOException with stream: .
+
+# Created at 2019-08-30T16:23:06.499
+Unexpected IOException with stream: 4
+
+# Created at 2019-08-30T16:23:06.499
+Unexpected IOException with stream: 1
+
+# Created at 2019-08-30T16:23:06.500
+Unexpected IOException with stream: .
+
+# Created at 2019-08-30T16:23:06.500
+Unexpected IOException with stream: 5
+
+# Created at 2019-08-30T16:23:06.500
+Unexpected IOException with stream: 7
+
+# Created at 2019-08-30T16:23:06.501
+Unexpected IOException with stream: 8
+
+# Created at 2019-08-30T16:23:06.501
+Unexpected IOException with stream: 7
+
+# Created at 2019-08-30T16:23:06.501
+Unexpected IOException with stream: 3
+
+# Created at 2019-08-30T16:23:06.502
+Unexpected IOException with stream: 7
+
+# Created at 2019-08-30T16:23:06.502
+Unexpected IOException with stream:  
+
+# Created at 2019-08-30T16:23:06.502
+Unexpected IOException with stream: (
+
+# Created at 2019-08-30T16:23:06.503
+Unexpected IOException with stream: 4
+
+# Created at 2019-08-30T16:23:06.503
+Unexpected IOException with stream: 9
+
+# Created at 2019-08-30T16:23:06.503
+Unexpected IOException with stream: d
+
+# Created at 2019-08-30T16:23:06.503
+Unexpected IOException with stream: a
+
+# Created at 2019-08-30T16:23:06.504
+Unexpected IOException with stream: 6
+
+# Created at 2019-08-30T16:23:06.504
+Unexpected IOException with stream: 7
+
+# Created at 2019-08-30T16:23:06.504
+Unexpected IOException with stream: 0
+
+# Created at 2019-08-30T16:23:06.505
+Unexpected IOException with stream: 2
+
+# Created at 2019-08-30T16:23:06.505
+Unexpected IOException with stream: b
+
+# Created at 2019-08-30T16:23:06.505
+Unexpected IOException with stream: 1
+
+# Created at 2019-08-30T16:23:06.505
+Unexpected IOException with stream: 6
+
+# Created at 2019-08-30T16:23:06.506
+Unexpected IOException with stream: 0
+
+# Created at 2019-08-30T16:23:06.506
+Unexpected IOException with stream: 3
+
+# Created at 2019-08-30T16:23:06.506
+Unexpected IOException with stream: 1
+
+# Created at 2019-08-30T16:23:06.507
+Unexpected IOException with stream: c
+
+# Created at 2019-08-30T16:23:06.507
+Unexpected IOException with stream: 4
+
+# Created at 2019-08-30T16:23:06.507
+Unexpected IOException with stream: 0
+
+# Created at 2019-08-30T16:23:06.507
+Unexpected IOException with stream: d
+
+# Created at 2019-08-30T16:23:06.508
+Unexpected IOException with stream: 6
+
+# Created at 2019-08-30T16:23:06.508
+Unexpected IOException with stream: 3
+
+# Created at 2019-08-30T16:23:06.508
+Unexpected IOException with stream: e
+
+# Created at 2019-08-30T16:23:06.509
+Unexpected IOException with stream: 5
+
+# Created at 2019-08-30T16:23:06.509
+Unexpected IOException with stream: 6
+
+# Created at 2019-08-30T16:23:06.509
+Unexpected IOException with stream: 1
+
+# Created at 2019-08-30T16:23:06.510
+Unexpected IOException with stream: 8
+
+# Created at 2019-08-30T16:23:06.510
+Unexpected IOException with stream: d
+
+# Created at 2019-08-30T16:23:06.510
+Unexpected IOException with stream: e
+
+# Created at 2019-08-30T16:23:06.511
+Unexpected IOException with stream: 0
+
+# Created at 2019-08-30T16:23:06.511
+Unexpected IOException with stream: 3
+
+# Created at 2019-08-30T16:23:06.511
+Unexpected IOException with stream: a
+
+# Created at 2019-08-30T16:23:06.511
+Unexpected IOException with stream: 3
+
+# Created at 2019-08-30T16:23:06.512
+Unexpected IOException with stream: 2
+
+# Created at 2019-08-30T16:23:06.512
+Unexpected IOException with stream: f
+
+# Created at 2019-08-30T16:23:06.512
+Unexpected IOException with stream: f
+
+# Created at 2019-08-30T16:23:06.512
+Unexpected IOException with stream: 6
+
+# Created at 2019-08-30T16:23:06.513
+Unexpected IOException with stream: c
+
+# Created at 2019-08-30T16:23:06.513
+Unexpected IOException with stream: 1
+
+# Created at 2019-08-30T16:23:06.513
+Unexpected IOException with stream: 9
+
+# Created at 2019-08-30T16:23:06.514
+Unexpected IOException with stream: 7
+
+# Created at 2019-08-30T16:23:06.514
+Unexpected IOException with stream: e
+
+# Created at 2019-08-30T16:23:06.514
+Unexpected IOException with stream: )
+
+# Created at 2019-08-30T16:23:06.514
+Unexpected IOException with stream:  
+
+# Created at 2019-08-30T16:23:06.515
+Unexpected IOException with stream: o
+
+# Created at 2019-08-30T16:23:06.515
+Unexpected IOException with stream: n
+
+# Created at 2019-08-30T16:23:06.515
+Unexpected IOException with stream:  
+
+# Created at 2019-08-30T16:23:06.515
+Unexpected IOException with stream: p
+
+# Created at 2019-08-30T16:23:06.516
+Unexpected IOException with stream: o
+
+# Created at 2019-08-30T16:23:06.516
+Unexpected IOException with stream: r
+
+# Created at 2019-08-30T16:23:06.516
+Unexpected IOException with stream: t
+
+# Created at 2019-08-30T16:23:06.516
+Unexpected IOException with stream:  
+
+# Created at 2019-08-30T16:23:06.517
+Unexpected IOException with stream: 1
+
+# Created at 2019-08-30T16:23:06.517
+Unexpected IOException with stream: 1
+
+# Created at 2019-08-30T16:23:06.517
+Unexpected IOException with stream: 6
+
+# Created at 2019-08-30T16:23:06.518
+Unexpected IOException with stream: 0
+
+# Created at 2019-08-30T16:23:06.518
+Unexpected IOException with stream: 3
+
+# Created at 2019-08-30T16:23:06.518
+Unexpected IOException with stream: 
+
+# Created at 2019-08-30T16:23:06.518
+Unexpected IOException with stream: 
+
+
+# Created at 2019-08-30T16:23:06.519
+Unexpected IOException with stream: O
+
+# Created at 2019-08-30T16:23:06.519
+Unexpected IOException with stream: n
+
+# Created at 2019-08-30T16:23:06.519
+Unexpected IOException with stream: l
+
+# Created at 2019-08-30T16:23:06.519
+Unexpected IOException with stream: y
+
+# Created at 2019-08-30T16:23:06.520
+Unexpected IOException with stream:  
+
+# Created at 2019-08-30T16:23:06.520
+Unexpected IOException with stream: l
+
+# Created at 2019-08-30T16:23:06.520
+Unexpected IOException with stream: o
+
+# Created at 2019-08-30T16:23:06.520
+Unexpected IOException with stream: c
+
+# Created at 2019-08-30T16:23:06.521
+Unexpected IOException with stream: a
+
+# Created at 2019-08-30T16:23:06.521
+Unexpected IOException with stream: l
+
+# Created at 2019-08-30T16:23:06.521
+Unexpected IOException with stream:  
+
+# Created at 2019-08-30T16:23:06.521
+Unexpected IOException with stream: c
+
+# Created at 2019-08-30T16:23:06.522
+Unexpected IOException with stream: o
+
+# Created at 2019-08-30T16:23:06.522
+Unexpected IOException with stream: n
+
+# Created at 2019-08-30T16:23:06.522
+Unexpected IOException with stream: n
+
+# Created at 2019-08-30T16:23:06.522
+Unexpected IOException with stream: e
+
+# Created at 2019-08-30T16:23:06.523
+Unexpected IOException with stream: c
+
+# Created at 2019-08-30T16:23:06.523
+Unexpected IOException with stream: t
+
+# Created at 2019-08-30T16:23:06.523
+Unexpected IOException with stream: i
+
+# Created at 2019-08-30T16:23:06.523
+Unexpected IOException with stream: o
+
+# Created at 2019-08-30T16:23:06.524
+Unexpected IOException with stream: n
+
+# Created at 2019-08-30T16:23:06.524
+Unexpected IOException with stream: s
+
+# Created at 2019-08-30T16:23:06.524
+Unexpected IOException with stream:  
+
+# Created at 2019-08-30T16:23:06.524
+Unexpected IOException with stream: a
+
+# Created at 2019-08-30T16:23:06.525
+Unexpected IOException with stream: r
+
+# Created at 2019-08-30T16:23:06.525
+Unexpected IOException with stream: e
+
+# Created at 2019-08-30T16:23:06.525
+Unexpected IOException with stream:  
+
+# Created at 2019-08-30T16:23:06.525
+Unexpected IOException with stream: a
+
+# Created at 2019-08-30T16:23:06.526
+Unexpected IOException with stream: l
+
+# Created at 2019-08-30T16:23:06.526
+Unexpected IOException with stream: l
+
+# Created at 2019-08-30T16:23:06.526
+Unexpected IOException with stream: o
+
+# Created at 2019-08-30T16:23:06.526
+Unexpected IOException with stream: w
+
+# Created at 2019-08-30T16:23:06.527
+Unexpected IOException with stream: e
+
+# Created at 2019-08-30T16:23:06.527
+Unexpected IOException with stream: d
+
+# Created at 2019-08-30T16:23:06.527
+Unexpected IOException with stream: .
+
+# Created at 2019-08-30T16:23:06.527
+Unexpected IOException with stream: 
+
+# Created at 2019-08-30T16:23:06.528
+Unexpected IOException with stream: 
+
+
+# Created at 2019-08-30T16:23:10.772
+Unexpected IOException with stream: Aug 30, 2019 4:23:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created at 2019-08-30T16:23:10.917
+Unexpected IOException with stream: 2019-08-30 16:23:10 INFO  TestBase:174 -  =====>Navigating to url<======= https://app.maventus.com/home/home
+
+
+# Created at 2019-08-30T16:23:16.440
+Unexpected IOException: 5,1,TestCases.Socialinbox_Twitter,socialinboxtwitter(TestCases.Socialinbox_Twitter),TestCases.Socialinbox_Twitter,null,null
+
+
+# Created at 2019-08-30T16:23:19.444
+Unexpected IOException with stream: 2019-08-30 16:23:19 INFO  Socialinbox_Twitter:39 - <===========Starting Social Inbox Twitter operations===========> 
+
+
+# Created at 2019-08-30T16:23:25.787
+Unexpected IOException with stream: 2019-08-30 16:23:25 INFO  Socialinbox_Twitterobj:137 - Entered user name harienterprisesa@gmail.com and object is [[ChromeDriver: chrome on XP (21d795ba8188c486fc686d31338944ed)] -> name: email]
+
+
+# Created at 2019-08-30T16:23:25.789
+Unexpected IOException with stream: 2019-08-30 16:23:25 INFO  Socialinbox_Twitterobj:138 - <===========User name entered successfully!===========> 
+
+
+# Created at 2019-08-30T16:23:26.036
+Unexpected IOException with stream: 2019-08-30 16:23:26 INFO  Socialinbox_Twitterobj:140 - Entered password social@123 and object is [[ChromeDriver: chrome on XP (21d795ba8188c486fc686d31338944ed)] -> name: pwd]
+
+
+# Created at 2019-08-30T16:23:26.036
+Unexpected IOException with stream: 2019-08-30 16:23:26 INFO  Socialinbox_Twitterobj:141 - <===========password entered successfully!===========> 
+
+

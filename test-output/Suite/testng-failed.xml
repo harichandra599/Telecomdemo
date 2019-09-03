@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Sanity in GC(failed)">
+    <parameter name="browser" value="GC"/>
+    <classes>
+      <class name="TestCases.EnterpriseuserLogin">
+        <methods>
+          <include name="browserclose"/>
+          <include name="openbrowser"/>
+          <include name="enterpriseuseroperations" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.EnterpriseuserLogin -->
+    </classes>
+  </test> <!-- Sanity in GC(failed) -->
+</suite> <!-- Failed suite [Suite] -->
